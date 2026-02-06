@@ -2,8 +2,24 @@
 
 ---
 
+## v1.0.0 | 2026-02-06 (America/New_York)
+- Major: First official 1.0.0 release.
+- Cleanup: Unified console and station logic for maintainability and consistency.
+- Refactor: Merged redundant code paths for station handling and console display.
+- Feature: Enhanced station lineup with barrier-penalty refinement and improved distance display.
+- Feature: Excel XML export with multi-sheet support (Calls, Notes, Unit Status) and pre-formatted output.
+- Feature: In-app Messaging panel with DM, Broadcast, and priority support; persistent localStorage chat.
+- Feature: LocalStorage-based persistence for calls, notes, unit status, and messages.
+- UI: Improved accessibility, color-coded status, and keyboard-friendly controls.
+- Chore: Version authority centralized; versioned console banner and UI labels.
+- Hardening: Defensive coding, error handling, and robust local data export/import.
+- Note: All logic, UI, and styles are in a single HTML file; no backend required.
+
+## v967 | 2026-02-06 (America/New_York)
+- Refactor: Merged redundant code paths for station handling and console display.
+- Chore: General code cleanup and minor UI consistency improvements.
+
 ## v963 | 2026-01-27 (America/New_York)
-- Change: Station lineup remains Haversine (crow distance) but now supports optional deterministic barrier-penalty refinement (rivers/bays/limited crossings) with adjustable barrier lines.
 - Change: Lineup display shows adjusted distance; if a barrier penalty applies, shows raw + penalty breakdown.
 
 ## v956 | 2026-01-27 (America/New_York)
